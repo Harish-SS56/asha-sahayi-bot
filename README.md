@@ -344,10 +344,13 @@ The RAG system indexes these official healthcare documents:
 | Document | Content |
 |----------|---------|
 | `guidelines-on-asha.pdf` | ASHA program guidelines |
-| `Handbook for ASHA on Home Based Care.pdf` | Home care protocols |
+| `Handbook for ASHA on Home Based Care for Young Child-English.pdf` | Home-based care protocols |
 | `Hypertension_full.pdf` | Hypertension management |
 | `imnci_chart_booklet.pdf` | Child health (IMNCI) |
-| `sba_guidelines_for_skilled_attendance_at_birth.pdf` | Maternal health |
+| `sba_guidelines_for_skilled_attendance_at_birth2.pdf` | Maternal health / skilled birth attendance |
+| `NTEP.pdf` | National Tuberculosis Elimination Programme |
+| `Operational_Guidelines_for_Introduction_of_Rotavac_in_UIP.pdf` | Rotavirus vaccine guidelines |
+| `Revised_Home_Based_New_Born_Care_Operational_Guidelines_2014.pdf` | Newborn home-based care |
 
 ### How RAG Works
 
