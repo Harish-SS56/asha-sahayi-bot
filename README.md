@@ -550,42 +550,20 @@ CMD ["python", "run_bot.py"]
 ## 📸 Screenshots
 
 ### Bot Start Screen
-```
-🙏 Namaste, [User]!
 
-Welcome to ASHA AI Assistant - your healthcare support companion.
+<img width="646" height="683" alt="image" src="https://github.com/user-attachments/assets/af5c34a5-018f-42f7-9ad4-50edb3258801" />
 
-I can help you with:
-• 📝 Recording patient visits (voice or text)
-• 📋 Tracking patient health records
-• 🏥 Providing medical guidance from official NHM guidelines
-• 🗣️ Multilingual support (Hindi, Tamil, Malayalam, English)
-```
 
 ### Data Extraction
-```
-📋 Extracted Data:
-👤 Patient: Radha
-   Age: 45
-🩺 BP: 130/80 mmHg
-🌡️ Temp: 37.2°C
-🤒 Symptoms: headache, dizziness
-📍 Visit: Home Visit
 
-✅ Visit recorded (ID: 42)
+<img width="618" height="588" alt="image" src="https://github.com/user-attachments/assets/ddf96515-8ff0-4107-8f57-b833abca3264" />
 
-Based on the symptoms and vital signs, here are some recommendations...
-```
 
 ### Statistics Dashboard
-```
-📊 Your Statistics
 
-👥 Total Patients: 24
-📝 Total Visits: 156
-📅 Visits This Week: 12
-⏰ Pending Follow-ups: 3
-```
+
+<img width="489" height="214" alt="image" src="https://github.com/user-attachments/assets/0b22550e-0eab-4e32-9bd1-9d65eebe902e" />
+
 
 ---
 
