@@ -1,0 +1,52 @@
+# FastAPI & Web Server
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+
+# Telegram Bot
+python-telegram-bot==21.0.1
+
+# Azure OpenAI
+openai==1.12.0
+
+# LangChain for RAG
+langchain==0.1.9
+langchain-openai==0.0.6
+langchain-community==0.0.24
+langchain-chroma==0.1.0
+
+# Vector Database
+chromadb==0.4.22
+
+# PDF Processing
+pypdf==4.0.1
+unstructured==0.12.4
+
+# Database
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+asyncpg==0.29.0
+
+# Speech-to-Text
+deepgram-sdk==3.1.6
+
+# Text-to-Speech
+gTTS>=2.5.0
+elevenlabs==1.50.0
+
+# Audio Processing (PyAV bundles FFmpeg)
+av>=10.0.0
+pydub==0.25.1
+
+# Data Validation
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+# Utilities
+python-dotenv==1.0.1
+aiofiles==23.2.1
+aiohttp==3.9.3
+httpx==0.27.0
+
+# Logging
+structlog==24.1.0

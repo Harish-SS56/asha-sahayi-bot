@@ -1,0 +1,40 @@
+version: "3.8"
+
+services:
+  asha-bot:
+    build: .
+    container_name: asha-ai-assistant
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./chroma_db:/app/chroma_db
+      - ./docs:/app/docs
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/v1/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    environment:
+      - APP_ENV=production
+      - LOG_LEVEL=INFO
+
+  # Optional: Local PostgreSQL for development
+  # postgres:
+  #   image: postgres:15-alpine
+  #   container_name: asha-postgres
+  #   restart: unless-stopped
+  #   environment:
+  #     POSTGRES_USER: asha
+  #     POSTGRES_PASSWORD: asha_password
+  #     POSTGRES_DB: asha_db
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   ports:
+  #     - "5432:5432"
+
+# volumes:
+#   postgres_data:
