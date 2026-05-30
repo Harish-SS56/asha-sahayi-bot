@@ -5,6 +5,9 @@ A resilient, voice-enabled, and privacy-conscious Telegram bot designed to suppo
 [![Telegram](https://img.shields.io/badge/Telegram-@asha__ai__assistant__bot-blue?style=flat&logo=telegram)](https://t.me/asha_ai_assistant_bot)
 [![Python](https://img.shields.io/badge/Python-3.10+-green?style=flat&logo=python)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109+-teal?style=flat&logo=fastapi)](https://fastapi.tiangolo.com)
+[![Demo Video](https://img.shields.io/badge/Demo-Watch%20Video-red?style=flat&logo=google-drive)](https://drive.google.com/file/d/19k36W5oIJnWvEemtT5gqIgBNY9GFn-Tn/view?usp=sharing)
+
+> 🎬 **[Watch Demo Video](https://drive.google.com/file/d/19k36W5oIJnWvEemtT5gqIgBNY9GFn-Tn/view?usp=sharing)** — 2-minute walkthrough showing voice input, multilingual support, patient logging, RAG, and emergency detection.
 
 ---
 
